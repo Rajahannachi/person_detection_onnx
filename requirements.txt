@@ -1,0 +1,13 @@
+# Runtime (inference + API): no PyTorch needed
+onnxruntime
+opencv-python
+numpy
+psutil
+fastapi
+uvicorn
+python-multipart
+
+# Export + PyTorch reference in benchmark_engines.py only
+ultralytics>=8.4.0
+onnx
+onnxslim
